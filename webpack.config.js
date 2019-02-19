@@ -9,7 +9,7 @@ module.exports = {
 		popup: path.resolve(__dirname, 'src/scripts/popup/index.ts'),
 	},
 	output: {
-		path: path.resolve(__dirname, 'dist/scripts'),
+		path: path.resolve(__dirname, 'dist/unpacked/scripts'),
 		filename: '[name].bundle.js',
 	},
 	module: {
