@@ -20,9 +20,7 @@
 	},
 	"content_scripts": [],
 	"background": {
-		"scripts": [
-			"scripts/background.bundle.js"
-		],
+		"page": "background.html",
 		"persistent": false
 	},
 	"permissions": [

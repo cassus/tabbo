@@ -25,9 +25,8 @@
 		"moduleResolution": "node",
 		"listFiles": false
 	},
-	"files": [
-		"src/scripts/background/index.ts",
-		"src/scripts/popup/index.ts",
-		"src/scripts/manager/index.ts"
+	"include": [
+		"src/scripts/**/*.ts",
+		"node_modules/webextension-polyfill-ts/src/**/*.ts"
 	]
 }
